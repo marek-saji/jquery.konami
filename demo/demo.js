@@ -1,7 +1,5 @@
 $(function() {
-	$(window).konami({
-		cheat: function() {
-			alert('Cheat code activated!');
-		}
+	$.konami(function() {
+		alert('Cheat code activated!');
 	});
 });

@@ -1,6 +1,7 @@
 ============================================================================
 Konami Code For jQuery
 8BIT, http://8bit.io, @8BIT
+marek-saji, http://github.com/marek-saji
 ============================================================================
 
 ABOUT
@@ -30,19 +31,16 @@ Apply the plugin to the window to capture keypresses:
 
 Specify a callback to fire once the code has been entered:
 
-  $(window).konami({	
-		cheat: function() {
-			alert('Cheat code activated!');
-		}
+	$(window).konami(function() {
+		alert('Cheat code activated!');
 	});
 
 -------------------------------------------
 
 CONTACT
 
-Web:      http://8bit.io
-Twitter:  @8BIT
-Email:    info@8bit.io
+Web:      http://github.com/marek-saji
+Twitter:  @saji_
 
 ============================================================================
 
