@@ -23,33 +23,35 @@
  * [MIT License]: http://www.opensource.org/licenses/mit-license.php
  */
 
-(function($) {
+(function ($) {
 
-	var konamiCode = [38,38,40,40,37,39,37,39,66,65],
+	"use strict";
+
+	var konamiCode = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65],
 		konamiCodeLength = konamiCode.length
 	;
 
 
 
-	$.konami = function(cheat) {
+	$.konami = function (cheat) {
 		$(window).konami(cheat);
-	}
+	};
 
 
-	$.fn.konami = function(cheat) {
+	$.fn.konami = function (cheat) {
 
-		return this.each(function() {
+		return this.each(function () {
 
 			// matched keys counter, index for konamiCode array
 			var idx = 0;
 
-			$(this).keyup(function(evt) {
+			$(this).keyup(function (evt) {
 
 				var code = evt.keyCode || evt.which;
 
-				if (code === konamiCode[ idx ]) {
+				if (code === konamiCode[idx]) {
 					// matched a key
-					idx++;
+					idx += 1;
 				} else {
 					// failure, start counting from begining
 					idx = 0;
@@ -67,5 +69,5 @@
 
 	}; // $.fn.konami
 
-})(jQuery);
+}(jQuery));
 
