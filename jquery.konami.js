@@ -6,7 +6,7 @@
  *
  *
  * - Copyright 2011 8BIT, http://8bit.io
- * - Copyright 2011 marek-san, http://github.com/marek-saji
+ * - Copyright 2011 Marek `saji` Augustynowicz, http://github.com/marek-saji
  *
  * Released under the [MIT License].
  *
