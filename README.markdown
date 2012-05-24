@@ -4,14 +4,14 @@ Konami Code For jQuery
 - marek-saji, http://github.com/marek-saji
 
 
-ABOUT
+About
 -----
 
 Using the Konami code, easily configure and Easter Egg for your page
 or any element on the page.
 
 
-PARAMETERS
+Parameters
 ----------
 
 1. `cheat` (function)
@@ -19,7 +19,7 @@ PARAMETERS
    The callback function to fire once the cheat code has been entered.
 
 
-INSTRUCTIONS
+Instructions
 ------------
 
 Include the plugin in the header of your page:
@@ -40,14 +40,14 @@ Or bind to specific element:
     });
 
 
-CONTACT
+Contact
 -------
 
-Web:      http://github.com/marek-saji
-Twitter:  @saji_
+- Web:      http://github.com/marek-saji
+- Twitter:  @saji_
 
 
-LICENSE
+License
 -------
 
 MIT license:
